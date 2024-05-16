@@ -36,8 +36,7 @@ import com.example.cryptoapp.presentation.coin_list.components.CoinListItem
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun CoinListScreen(
-    navController: NavController,
+fun CoinDetailScreen(
     viewModel: CoinDetailViewModel = hiltViewModel()
 ) {
     val state = viewModel.state.value

@@ -1,4 +1,4 @@
-package com.example.cryptoapp
+package com.example.cryptocurrencyapp
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
